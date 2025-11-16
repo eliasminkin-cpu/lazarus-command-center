@@ -1,0 +1,14 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "regions": ["fra1"],
+  "env": {
+    "NOTION_API_KEY": "@notion_api_key",
+    "NOTION_TASKS_DB_ID": "@notion_tasks_db_id",
+    "NOTION_KPI_DB_ID": "@notion_kpi_db_id",
+    "NOTION_BALANCE_DB_ID": "@notion_balance_db_id",
+    "NOTION_SYNERGY_DB_ID": "@notion_synergy_db_id"
+  }
+}
